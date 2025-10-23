@@ -26,4 +26,9 @@ import androidx.compose.foundation.layout.Box
 
 @Composable
 fun AktivitasPertama(modifier: Modifier = Modifier) {
-
+    Column(
+        modifier = modifier
+            .padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
