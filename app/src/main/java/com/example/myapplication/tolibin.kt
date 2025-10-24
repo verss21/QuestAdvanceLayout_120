@@ -137,6 +137,14 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Red
+            )
+        )
         // Teks bawah
         Box(
             modifier = Modifier.fillMaxSize()
