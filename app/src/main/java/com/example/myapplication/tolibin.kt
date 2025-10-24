@@ -102,4 +102,14 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             Row(
                 verticalAlignment = Alignment.CenterVertically,
                 modifier = Modifier.padding(8.dp)
-            )
+            ) {
+                val gambar2 = painterResource(id = R.drawable.logo_umy)
+
+                Image(
+                    painter = gambar2,
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(100.dp)
+                        .padding(5.dp)
+                )
+
