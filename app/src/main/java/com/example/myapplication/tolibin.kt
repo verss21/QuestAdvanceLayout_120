@@ -144,7 +144,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
             colors = CardDefaults.cardColors(
                 containerColor = Color.Red
             )
-        )
+        ) {
+            Row(
+                verticalAlignment = Alignment.CenterVertically,
+                modifier = Modifier.padding(8.dp)
+            )
         // Teks bawah
         Box(
             modifier = Modifier.fillMaxSize()
