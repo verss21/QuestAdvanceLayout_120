@@ -129,3 +129,24 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                         color = Color.Yellow,
                         modifier = Modifier.padding(top = 10.dp)
                     )
+                    Text(
+                        text = stringResource(id = R.string.alamat2),
+                        fontSize = 20.sp,
+                        color = Color.Yellow
+                    )
+                }
+            }
+        }
+        // Teks bawah
+        Box(
+            modifier = Modifier.fillMaxSize()
+        ) {
+            Text(
+                text = stringResource(id = R.string.copy),
+                modifier = Modifier
+                    .align(Alignment.BottomCenter)
+                    .padding(bottom = 10.dp)
+            )
+        }
+    }
+}
