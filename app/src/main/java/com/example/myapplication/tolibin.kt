@@ -23,12 +23,14 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.ui.draw.clip
 
 @Composable
 fun AktivitasPertama(modifier: Modifier = Modifier) {
     Column(
         modifier = modifier
-            .padding(top = 100.dp)
+            .padding(top = 30.dp)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
@@ -89,17 +91,11 @@ fun AktivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-
-        // Teks bawah
-        Box(
-            modifier = Modifier.fillMaxSize()
-        ) {
-            Text(
-                text = stringResource(id = R.string.copy),
-                modifier = Modifier
-                    .align(Alignment.BottomCenter)
-                    .padding(bottom = 50.dp)
+        Card(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue
             )
-        }
-    }
-}
+        )
