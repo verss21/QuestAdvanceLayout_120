@@ -4,5 +4,11 @@
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="nama">Tolibin</string>
     <string name="alamat">Mataram</string>
+
+    <string name="nama2">Raehan Arjun</string>
+    <string name="nim2">20230140120</string>
+    <string name="alamat2">Yogyakarta</string>
+
+
     <string name="copy">Copyright 2025</string>
 </resources>
